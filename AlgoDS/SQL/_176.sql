@@ -15,3 +15,4 @@ select max(Salary) as SecondHighestSalary from Employee where Salary < (select m
 
 -- using MYSQL limit offset
 select distinct Salary as SecondHighestSalary from Employee limit 1 offset 1;
+
