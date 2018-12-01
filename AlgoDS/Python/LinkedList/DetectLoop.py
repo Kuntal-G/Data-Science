@@ -1,6 +1,6 @@
-# Detect Loop in a Linkedlist
+# Detect Loop in a Linkedlist with Loop Count
 
-# Basic LinkedList operation
+
 
 class Node:
     
@@ -41,9 +41,25 @@ class LinkedList:
             slow_ptr=slow_ptr.next
             fast_ptr=fast_ptr.next.next
             if(slow_ptr==fast_ptr):
-                return 'Loop found'
+                
+                loop_cnt=self.loopCycleCount(slow_ptr)
+                
+                return 'Loop found with count {}'.format(loop_cnt)
         
         return 'No loop detected'
+    
+    
+    def loopCycleCount(self,node):
+        
+        temp=node
+        count=1
+        while(temp.next is not node):
+            
+            temp=temp.next
+            count+=1
+        return count
+            
+
 
 if __name__== '__main__':
     
