@@ -14,18 +14,24 @@ arr=[5, 3, 5, 0, 5, 0, 5,0]
 #without hash/counter- using boyer-moore voting
 
 
-def majorityElem(input):
+def majorityElem(arr):
 
-    candidate = 0
-    count = 0
-    for value in input:
+    maxIndex=0
+    count = 1
+    for i in range(len(arr)):
+        print(i,arr[i])
         if count == 0:
-            candidate = value
-        if candidate == value:
+            
+            maxIndex = i
+            count +=1
+            
+        elif arr[maxIndex] == arr[i]:
             count += 1
+            
         else:
             count -= 1
+            
 
-    return candidate
+    return arr[maxIndex]
 
 print(majorityElem(arr))
