@@ -1,4 +1,4 @@
-#Merge sort implementation
+#Merge sort implementation O(NlogN)
 
 def merge(a,b):
 
