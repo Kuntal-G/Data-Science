@@ -1,4 +1,4 @@
-# Fibonaci sequence
+# Fibonaci sequence Recursion and Dynamic Programming
 
 
 def fibonaci(n):
