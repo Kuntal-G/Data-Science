@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+# Bread First Search using DeQueue
+
 from collections import deque
 
 def breadth_first_search(graph,root):

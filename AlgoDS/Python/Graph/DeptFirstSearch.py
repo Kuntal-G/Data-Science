@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+#Depth First Search using stack
+
 def depth_first_search(graph,root):
     
     stack=[root]
