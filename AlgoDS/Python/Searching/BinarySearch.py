@@ -1,4 +1,4 @@
-# Binary serach implementation
+# Binary search implementation O(logN)
 def binarySearch(arr,k):
 
     low=0
