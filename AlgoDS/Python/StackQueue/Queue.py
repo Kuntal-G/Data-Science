@@ -1,4 +1,4 @@
-#Queue implementation
+#Queue implementation using list
 
 class Queue:
 

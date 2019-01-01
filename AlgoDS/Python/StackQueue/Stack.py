@@ -1,4 +1,4 @@
-#Stack implementation
+#Stack implementation using list
 
 class Stack:
 
