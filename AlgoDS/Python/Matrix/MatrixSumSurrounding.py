@@ -1,5 +1,5 @@
 
-# Sum of matrix and its surroundings
+# Replace middle element of matrix by sum of its surroundings
 
 def matrix_sum_surroundings(mat):
     
