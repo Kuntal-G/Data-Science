@@ -28,7 +28,7 @@ def longest_common_sub_sequence(s1,s2):
                 
             else:
                 #When characters are different use the maximum
-                # of the two diagonal value on left
+                # of the two diagonal value on top or left
                 L[i][j]= max(L[i-1][j],L[i][j-1])
                 
             

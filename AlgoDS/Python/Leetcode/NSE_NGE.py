@@ -71,7 +71,7 @@ def next_smaller_element(arr):
         next_elem=-1
         element=stack.pop()
         print(str(element)+'--->'+str(next_elem))
-   
+
 next_smaller_element(arr)
 
 

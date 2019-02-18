@@ -1,4 +1,4 @@
-# Retreive K random lements from array of unbounded size
+# Retreive K random elements from array of unbounded size
 import random
 def reservoirSampling(arr,k):
     

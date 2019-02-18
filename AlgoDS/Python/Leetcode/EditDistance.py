@@ -19,10 +19,11 @@ def edit_distance_two_string(s1,s2):
         for j in range(n+1):
             
             
-            
+            #null string on one side, will take all edit of other string
             if i==0:
                 L[i][j]=j
-                
+             
+            #same for column
             elif j==0:
                 L[i][j]=i
             
